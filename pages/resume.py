@@ -12,8 +12,8 @@ st.markdown("""<style>[data-testid="stBaseButton-secondary"]>[data-testid="stMar
             padding: 0px;}</style>
             """, unsafe_allow_html=True)
 
-image1 = r"c:\Users\USER\Pictures\Camera Roll\resume1.png"
-image2 = r"c:\Users\USER\Pictures\Camera Roll\resume2.png"
+image1 = "resume1.png"
+image2 = "resume2.png"
 
 images = [Image.open(image1), Image.open(image2)]
 if "current_image_index" not in st.session_state:
@@ -30,6 +30,7 @@ if col3.button("Next >"):
 col2.image(images[st.session_state.current_image_index], width="stretch")
 
 # --- Buttons ---
-st.download_button("**Resume**", data="Streamlit/my_portfolio/Sam Resume.docx",
-                   file_name="Sam's Resume.docx", mime="text",
+st.download_button("**Resume**", data="Adelaja Sam - Resume.pdf",
+                   file_name="Adelaja Sam - Resume.pdf", mime="text",
                    on_click="ignore", icon=":material/download:")
+
