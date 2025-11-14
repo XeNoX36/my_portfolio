@@ -33,21 +33,22 @@ with col2:
     st.write("")
     col1, col2, col3, col4, col5 = st.columns(5, gap="small", width=420)
     with col2:
-        st.image("images\twitter_3670211.png")
+        st.image("images/twitter_3670211.png")
         st.markdown('<p style="text-align: center; color: #94cff7; font-weight: bold;"><a href="https://x.com/adelajasamuel99">Twitter</a></p>',
                     unsafe_allow_html=True)
     with col3:
-        st.image("images\social_16033412.png")
+        st.image("images/social_16033412.png")
         st.markdown('<p style="text-align: center; color: #94cff7; font-weight: bold;"><a href="https://www.linkedin.com/in/adelajasamuel99">Linkedin</a></p>',
                     unsafe_allow_html=True)
     with col4:
-        st.image("images\github_270798.png")
+        st.image("images/github_270798.png")
         st.markdown('<p style="text-align: center; color: #94cff7; font-weight: bold;"><a href="https://github.com/XeNoX36/">Github</a></p>',
                     unsafe_allow_html=True)
     with col5:
-        st.image("images\email_3031693.png")
+        st.image("images/email_3031693.png")
         st.markdown('<p style="text-align: center; color: #94cff7; font-weight: bold;"><a href="adelajasamuel99@gmail.com">Gmail</a></p>',
                     unsafe_allow_html=True)
+
 
 
 
