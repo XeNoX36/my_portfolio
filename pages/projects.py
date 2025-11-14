@@ -61,7 +61,7 @@ with col2:
                 unsafe_allow_html=True)
     container = st.container(border=False, horizontal=True)
     container.write("[**View Project**](https://github.com/XeNoX36/Coffee-Sales-Dashboard/blob/main/README.md)")
-    container.download_button("**View Dashboard**", data="Streamlit/my_portfolio/coffeeOrdersData tutorial.xlsx",
+    container.download_button("**View Dashboard**", data="coffeeOrdersData tutorial.xlsx",
                               file_name="Coffee Sales Dashboard.xlsx", mime="text", on_click="ignore",
                               help="Download excel sheet to view dasboard")
 
@@ -166,4 +166,5 @@ st.markdown("""<style>[data-testid="stBaseButton-secondary"]>[data-testid="stMar
             padding: 0px; color: #94cff7; transition: color 0.3s ease-in-out;}</style>
             """, unsafe_allow_html=True)
 st.markdown("""<style>[data-testid="stBaseButton-secondary"]>[data-testid="stMarkdownContainer"]>p:hover{color: white; font-size: 16.3px;}</style>
+
             """, unsafe_allow_html=True)
