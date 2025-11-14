@@ -11,41 +11,41 @@ st.title("", anchor="line")
 # columns 1
 col1, col2, col3, col4, col5 = st.columns(5, border=True, width=950)
 with col1:
-    st.image(r"Streamlit\my_portfolio\images\excel.png")
+    st.image("images/excel.png")
 with col2:
-    st.image(r"Streamlit\my_portfolio\images\mysql.png")
+    st.image("images/mysql.png")
 with col3:
-    st.image(r"Streamlit\my_portfolio\images\server.png")
+    st.image("images/server.png")
 with col4:
-    st.image(r"Streamlit\my_portfolio\images\python.png")
+    st.image("images/python.png")
 with col5:
-    st.image(r"Streamlit\my_portfolio\images\numpy.png")
+    st.image("images/numpy.png")
 
 # columns 2
 col1, col2, col3, col4, col5 = st.columns(5, border=True, width=950)
 with col1:
-    st.image(r"Streamlit\my_portfolio\images\st.png")
+    st.image("images/st.png")
 with col2:
-    st.image(r"Streamlit\my_portfolio\images\pandas.png")
+    st.image("images/pandas.png")
 with col3:
-    st.image(r"Streamlit\my_portfolio\images\matplot.png")
+    st.image("images/matplot.png")
 with col4:
-    st.image(r"Streamlit\my_portfolio\images\plotly.png")
+    st.image("images/plotly.png")
 with col5:
-    st.image(r"Streamlit\my_portfolio\images\scikit.png")
+    st.image("images/scikit.png")
 
 # columns 3
 col1, col2, col3, col4, col5 = st.columns(5, border=True, width=950)
 with col1:
-    st.image(r"Streamlit\my_portfolio\images\seaborn.png")
+    st.image("images/seaborn.png")
 with col2:
-    st.image(r"Streamlit\my_portfolio\images\mpl.png")
+    st.image("images/mpl.png")
 with col3:
-    st.image(r"Streamlit\my_portfolio\images\etl.png")
+    st.image("images/etl.png")
 with col4:
-    st.image(r"Streamlit\my_portfolio\images\datastory.png")
+    st.image("images/datastory.png")
 with col5:
-    st.image(r"Streamlit\my_portfolio\images\tensor.png")
+    st.image("images/tensor.png")
 
 st.title("")
 st.header("Soft Skills & Competencies")
@@ -80,3 +80,4 @@ with col3:
 with col4:
     st.markdown('<p style="text-align: center;">Data Storytelling & Communication</p>',
                 unsafe_allow_html=True)
+
