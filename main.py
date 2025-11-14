@@ -1,6 +1,6 @@
 import streamlit as st
 
-with open(r"Streamlit\my_portfolio\portfolio.css", "r") as f:
+with open(r"portfolio.css", "r") as f:
     st.markdown(f"""<style>{f.read()}</style>""", unsafe_allow_html=True)
 
 st.set_page_config(page_title="Adelaja Sam",
@@ -16,3 +16,4 @@ project = st.Page("pages/projects.py", title="Projects")
 resume = st.Page("pages/resume.py", title="Resume")
 pg = st.navigation([about, technologies, project, resume], position="top")
 pg.run()
+
