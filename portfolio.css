@@ -1,0 +1,95 @@
+/*Body*/
+[data-testid="stMain"] {
+    background-color: #05112c;
+    color: white;
+}
+
+/*Nav bar*/
+[data-testid="stToolbar"] {
+    background-color: #05112c;
+    color: white;
+}
+div.rc-overflow.st-emotion-cache-qreyob.en0apyo13 {
+    padding-left: 240px;
+}
+[data-testid="stTopNavLinkContainer"]{
+    padding-right: 40px;
+}
+[data-testid="stTopNavLink"]{
+    border-bottom: solid 1px #94cff7;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+[data-testid="stTopNavLink"]:hover{
+    background-color: #70b4e259;
+    color: white;
+}
+[data-testid="stTopNavLink"]>span {
+    color: #94cff7;
+    font-size: 16px;
+    padding: 0 10px;;
+}
+[data-testid="stTopNavLink"]>span:hover {
+    color: white;
+}
+/*Navbar-Running icons*/
+[data-testid="stBaseButton-header"], [data-testid="stStatusWidgetRunningIcon"]>svg {
+    color: #94cff7;
+    border-color: #94cff7;
+}
+
+/*Buttons*/
+[data-testid="stDownloadButton"]>[data-testid="stBaseButton-secondary"] {
+    background-color: #105a8b;
+    border: solid 2px white;
+    transition: background-color 0.3s ease-in-out;
+}
+[data-testid="stDownloadButton"]>[data-testid="stBaseButton-secondary"]:hover {
+    background-color: #1d7bb9;
+    border: solid 2px white;
+}
+[data-testid="stBaseButton-secondary"]>[data-testid="stMarkdownContainer"]>p {
+    font-size: 16px;
+}
+/*button-icon*/
+button>span>[data-testid="stIconMaterial"] {
+    border: solid 3px 0 3px 3px white;
+    border-radius: 10px;
+    color: white;
+}
+/*About Section text*/
+[data-testid="stMarkdownContainer"] {
+    padding-left: 5px;
+}
+h2#about-me {
+    padding-bottom: 17px;
+}
+h1#line {
+    padding: 0px;
+    border-top: solid 1px #94cff736;
+}
+/*About Section social images*/
+[data-testid="stMarkdownContainer"]>p>a {
+    text-decoration: none;
+    color: #94cff7;
+    text-align: center;
+    transition: color 0.5s ease-in-out;
+}
+[data-testid="stMarkdownContainer"]>p>a:hover {
+    color: white;
+    font-size: 16.3px;
+}
+
+/*Project Section*/
+[data-testid="stButton"]>[data-testid="stBaseButton-secondary"] {
+    background-color: #3e6077;
+    border-radius: 20px;
+    cursor:default;
+    padding-top: 0px;
+    padding-bottom: 0px
+}
+[data-testid="stBaseButton-secondary"]>[data-testid="stMarkdownContainer"]>p {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 0px;
+}
