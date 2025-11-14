@@ -8,8 +8,8 @@ st.markdown("### Data Analyst | Data App Developer | ML Engineer")
 st.markdown("###### Transforming data into useful and interactive ideas.")
 
 # --- Buttons ---
-st.download_button("**Resume**", data="Streamlit/my_portfolio/Sam Resume.pdf",
-                   file_name="Sam's Resume.pdf", mime="text",
+st.download_button("**Resume**", data="Adelaja Sam - Resume.pdf",
+                   file_name="Adelaja Sam - Resume.pdf", mime="text",
                    on_click="ignore", icon=":material/download:")
 # with col2:
 
@@ -19,7 +19,7 @@ st.header("About me")
 st.title("", anchor="line")
 col1, col2 = st.columns([0.4, 0.6])
 with col1:
-    st.image(r"Streamlit\my_portfolio\images\Photo Sam.jpg", width=400)
+    st.image(r"\images\Photo Sam.jpg", width=400)
 with col2:
     st.write("Results-driven data analyst with an eye for detail and an open mind for learning. I am motivated to learn, grow and excel in my field. "
              "I have developed a strong foundation in statistical modeling, data extraction, exploration, visualization and interactive data app creation.")
@@ -33,18 +33,19 @@ with col2:
     st.write("")
     col1, col2, col3, col4, col5 = st.columns(5, gap="small", width=420)
     with col2:
-        st.image(r"Streamlit\my_portfolio\images\twitter_3670211.png")
+        st.image(r"\images\twitter_3670211.png")
         st.markdown('<p style="text-align: center; color: #94cff7; font-weight: bold;"><a href="https://x.com/adelajasamuel99">Twitter</a></p>',
                     unsafe_allow_html=True)
     with col3:
-        st.image(r"Streamlit\my_portfolio\images\social_16033412.png")
+        st.image(r"\images\social_16033412.png")
         st.markdown('<p style="text-align: center; color: #94cff7; font-weight: bold;"><a href="https://www.linkedin.com/in/adelajasamuel99">Linkedin</a></p>',
                     unsafe_allow_html=True)
     with col4:
-        st.image(r"Streamlit\my_portfolio\images\github_270798.png")
+        st.image(r"\images\github_270798.png")
         st.markdown('<p style="text-align: center; color: #94cff7; font-weight: bold;"><a href="https://github.com/XeNoX36/">Github</a></p>',
                     unsafe_allow_html=True)
     with col5:
-        st.image(r"Streamlit\my_portfolio\images\email_3031693.png")
+        st.image(r"\images\email_3031693.png")
         st.markdown('<p style="text-align: center; color: #94cff7; font-weight: bold;"><a href="adelajasamuel99@gmail.com">Gmail</a></p>',
                     unsafe_allow_html=True)
+
