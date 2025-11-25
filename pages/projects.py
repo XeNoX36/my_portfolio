@@ -61,8 +61,10 @@ with col2:
                 unsafe_allow_html=True)
     container = st.container(border=False, horizontal=True)
     container.write("[**View Project**](https://github.com/XeNoX36/Coffee-Sales-Dashboard/blob/main/README.md)")
-    container.download_button("**View Dashboard**", data="coffeeOrdersData tutorial.xlsx",
-                              file_name="Coffee Sales Dashboard.xlsx", mime="text", on_click="ignore",
+    with open("coffeeOrdersData tutorial.xlsx", "rb") as f:
+      excel_file = f.read()
+    container.download_button("**View Dashboard**", data=excel_file,
+                              file_name="Coffee Sales Dashboard.xlsx", mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", on_click="ignore",
                               help="Download excel sheet to view dasboard")
 
 with col3:
@@ -168,3 +170,4 @@ st.markdown("""<style>[data-testid="stBaseButton-secondary"]>[data-testid="stMar
 st.markdown("""<style>[data-testid="stBaseButton-secondary"]>[data-testid="stMarkdownContainer"]>p:hover{color: white; font-size: 16.3px;}</style>
 
             """, unsafe_allow_html=True)
+
