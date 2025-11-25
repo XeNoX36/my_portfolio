@@ -30,8 +30,12 @@ if col3.button("Next >"):
 col2.image(images[st.session_state.current_image_index], width="stretch")
 
 # --- Buttons ---
-st.download_button("**Resume**", data="Adelaja Sam - Resume.pdf",
+with open("Adelaja Sam - Resume.pdf", "rb") as f:
+  resume_file = f.read()
+
+st.download_button("**Resume**", data=resume_file,
                    file_name="Adelaja Sam - Resume.pdf", mime="application/pdf",
                    on_click="ignore", icon=":material/download:")
+
 
 
