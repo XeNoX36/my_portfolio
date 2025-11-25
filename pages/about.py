@@ -9,7 +9,7 @@ st.markdown("###### Transforming data into useful and interactive ideas.")
 
 # --- Buttons ---
 st.download_button("**Resume**", data="Adelaja Sam - Resume.pdf",
-                   file_name="Adelaja Sam - Resume.pdf", mime="text",
+                   file_name="Adelaja Sam - Resume.pdf", mime="application/pdf",
                    on_click="ignore", icon=":material/download:")
 # with col2:
 
@@ -48,6 +48,7 @@ with col2:
         st.image("images/email_3031693.png")
         st.markdown('<p style="text-align: center; color: #94cff7; font-weight: bold;"><a href="adelajasamuel99@gmail.com">Gmail</a></p>',
                     unsafe_allow_html=True)
+
 
 
 
