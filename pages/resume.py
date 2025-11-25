@@ -31,6 +31,7 @@ col2.image(images[st.session_state.current_image_index], width="stretch")
 
 # --- Buttons ---
 st.download_button("**Resume**", data="Adelaja Sam - Resume.pdf",
-                   file_name="Adelaja Sam - Resume.pdf", mime="text",
+                   file_name="Adelaja Sam - Resume.pdf", mime="application/pdf",
                    on_click="ignore", icon=":material/download:")
+
 
