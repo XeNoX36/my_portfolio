@@ -141,13 +141,12 @@ with col1:
     st.write("[**View Project**](https://github.com/XeNoX36/Electricity-Distribution-Prediction/blob/main/README.md)")
 
 with col2:
-    st.markdown("#### Euro 2024 Soccer Analysis App ")
-    st.text("Deployed a web app that visualizes the shot-map for different teams and players that participated in the Euro 2024 Qualifiers.")
-    st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">Python **|** MPL-Soccer **|** Streamlit</span>',
+    st.markdown("#### California Real Estate Predictive Modeling - ML ")
+    st.text("Analyzed California housing data of the 1990s to determine the impact of geographic, demographic, and economic factors on median house values, identifying median income and regional density as major value drivers.")
+    st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">Python **|** Machine Learning</span>',
                 unsafe_allow_html=True)
     container = st.container(border=False, horizontal=True)
-    container.write("[**View Project**](https://github.com/XeNoX36/SoccerLysis/blob/main/README.md)")
-    container.write("[**View App**](https://soccerlysis-app.streamlit.app/)")
+    container.write("[**View Project**](https://github.com/XeNoX36/California-Real-Estate-Predictive-Modeling/blob/main/README.md)")
 
 with col3:
     st.markdown("#### Student's SAT Performance Analysis Using SQL")
@@ -156,6 +155,17 @@ with col3:
     st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">SQL  **|** Data Analysis **|** SQL Server</span>',
                 unsafe_allow_html=True)
     st.write("[**View Project**](https://github.com/XeNoX36/SAT-Scores-of-Students/blob/main/README.md)")
+
+# columns 6
+col1, col2, col3 = st.columns(3, border=True)
+with col1:
+    st.markdown("#### Euro 2024 Soccer Analysis App ")
+    st.text("Deployed a web app that visualizes the shot-map for different teams and players that participated in the Euro 2024 Qualifiers.")
+    st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">Python **|** MPL-Soccer **|** Streamlit</span>',
+                unsafe_allow_html=True)
+    container = st.container(border=False, horizontal=True)
+    container.write("[**View Project**](https://github.com/XeNoX36/SoccerLysis/blob/main/README.md)")
+    container.write("[**View App**](https://soccerlysis-app.streamlit.app/)")
 
 
 # styles
@@ -170,4 +180,5 @@ st.markdown("""<style>[data-testid="stBaseButton-secondary"]>[data-testid="stMar
 st.markdown("""<style>[data-testid="stBaseButton-secondary"]>[data-testid="stMarkdownContainer"]>p:hover{color: white; font-size: 16.3px;}</style>
 
             """, unsafe_allow_html=True)
+
 
