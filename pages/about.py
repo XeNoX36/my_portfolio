@@ -8,11 +8,11 @@ st.markdown("### Data Analyst | Data App Developer | ML Engineer")
 st.markdown("###### Transforming data into useful and interactive ideas.")
 
 # --- Buttons ---
-with open("Adelaja Sam - Resume.pdf", "rb") as f:
+with open("Adelaja Sam - Business Analyst Resume.pdf", "rb") as f:
   resume_file = f.read()
 
 st.download_button("**Resume**", data=resume_file,
-                   file_name="Adelaja Sam - Resume.pdf", mime="application/pdf",
+                   file_name="Adelaja Sam - Business Analyst Resume.pdf", mime="application/pdf",
                    on_click="ignore", icon=":material/download:")
 # with col2:
 
@@ -51,6 +51,7 @@ with col2:
         st.image("images/email_3031693.png")
         st.markdown('<p style="text-align: center; color: #94cff7; font-weight: bold;"><a href="adelajasamuel99@gmail.com">Gmail</a></p>',
                     unsafe_allow_html=True)
+
 
 
 
