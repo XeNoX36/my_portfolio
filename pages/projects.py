@@ -8,7 +8,7 @@ st.markdown('<style>div.block-container{padding-left:8rem; padding-right:7rem;}<
 st.markdown('<style>[data-testid="stColumn"]{background-color: #2b3d645b; border: solid 1px #4e628f75;}</style>', unsafe_allow_html=True)
 
 # test-styles
-st.markdown('<style>[data-testid="stText"]>div{color: #d1cdcd; font-size: 14px; padding-left: 4.5px;}</style>', unsafe_allow_html=True)
+st.markdown('<style>[data-testid="stText"]>span{color: #d1cdcd; font-size: 14px; padding-left: 4.5px;}</style>', unsafe_allow_html=True)
 
 
 # header
@@ -178,6 +178,7 @@ st.markdown("""<style>[data-testid="stBaseButton-secondary"]>[data-testid="stMar
             """, unsafe_allow_html=True)
 st.markdown("""<style>[data-testid="stBaseButton-secondary"]>[data-testid="stMarkdownContainer"]>p:hover{color: white; font-size: 16.3px;}</style>
             """, unsafe_allow_html=True)
+
 
 
 
