@@ -8,7 +8,7 @@ st.markdown("### Data Analyst | Healthcare Analyst | ML Engineer")
 st.markdown("###### Transforming data into useful and interactive ideas.")
 
 # --- Buttons ---
-with open("Adelaja Sam - Business Analyst Resume.pdf", "rb") as f:
+with open("Adelaja Sam - Healthcare Analyst Resume.docx", "rb") as f:
   resume_file = f.read()
 
 st.download_button("**Resume**", data=resume_file,
