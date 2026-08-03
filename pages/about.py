@@ -4,7 +4,7 @@ import streamlit as st
 st.title("")
 st.title("")
 st.title("Hi, i'm Sam", anchor="pdg")
-st.markdown("### Data Analyst | Data App Developer | ML Engineer")
+st.markdown("### Data Analyst | Healthcare Analyst | ML Engineer")
 st.markdown("###### Transforming data into useful and interactive ideas.")
 
 # --- Buttons ---
