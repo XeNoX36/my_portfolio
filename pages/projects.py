@@ -19,11 +19,11 @@ st.title("", anchor="line")
 col1, col2, col3 = st.columns(3, border=True)
 with col1:
     st.markdown("#### Hospital Operations & Revenue Dashboard Using SQL & Tableau")
-    st.text("Developed an interactive Tableau dashboard tracking **hospital revenue, patient volume, physician performance, and treatment duration**, enabling executives to monitor operational KPIs in real time.")
+    st.text("Developed an interactive Tableau dashboard tracking hospital revenue, patient volume, physician performance, and treatment duration, enabling executives to monitor operational KPIs in real time.")
     st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">SQL **|** Tableau</span>',
                 unsafe_allow_html=True)
     container = st.container(border=False, horizontal=True)
-    container.write("[**View Project**](https://prod-ch-a.online.tableau.com/t/adelajasamuel99-feaf6d059b/views/HospitalOperationsandRevenueDashboard/PatientSummary)")
+    container.write("[**View Dashboard**](https://prod-ch-a.online.tableau.com/t/adelajasamuel99-feaf6d059b/views/HospitalOperationsandRevenueDashboard/PatientSummary)")
 with col2:
     st.markdown("#### Diabetes Risk Prediction System - Python, ML")
     st.text("Developed and deployed an end-to-end machine learning pipeline that predicts diabetes risk from patient clinical data using Python, Scikit-learn, and Streamlit.")
