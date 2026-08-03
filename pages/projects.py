@@ -18,7 +18,7 @@ st.title("", anchor="line")
 # columns 1
 col1, col2, col3 = st.columns(3, border=True)
 with col1:
-    st.markdown("#### Hospital Operations & Revenue Dashboard - Tableau, SQL")
+    st.markdown("#### Hospital Operations & Revenue Dashboard Using SQL & Tableau")
     st.text("Developed an interactive Tableau dashboard tracking **hospital revenue, patient volume, physician performance, and treatment duration**, enabling executives to monitor operational KPIs in real time.")
     st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">SQL **|** Tableau</span>',
                 unsafe_allow_html=True)
@@ -26,7 +26,7 @@ with col1:
     container.write("[**View Project**](https://prod-ch-a.online.tableau.com/t/adelajasamuel99-feaf6d059b/views/HospitalOperationsandRevenueDashboard/PatientSummary)")
 with col2:
     st.markdown("#### Diabetes Risk Prediction System - Python, ML")
-    st.text("* Developed and deployed an end-to-end machine learning pipeline that predicts diabetes risk from patient clinical data using Python, Scikit-learn, and Streamlit.")
+    st.text("Developed and deployed an end-to-end machine learning pipeline that predicts diabetes risk from patient clinical data using Python, Scikit-learn, and Streamlit.")
     st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">Machine Learning **|** Python **|** Streamlit</span>',
                 unsafe_allow_html=True)
     container = st.container(border=False, horizontal=True)
@@ -51,7 +51,7 @@ with col1:
                 unsafe_allow_html=True)
     st.write("[**View Project**](https://github.com/XeNoX36/Cuisine-Orders-SQL-Project/blob/main/README.md)")
 with col2:
-    st.markdown("#### Walmart Sales Analysis Using SQL and Python")
+    st.markdown("#### Walmart Sales Analysis Using SQL & Python")
     st.text("Utilized both python and SQL in this project. with Python the data was retrieved via an API while thorough exploratory analysis of market sales "
             "was accomplished using MySQL.")
     st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">SQL  **|** SQL Server **|** Python **|** ETL Pipeline</span>',
