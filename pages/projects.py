@@ -35,7 +35,7 @@ with col2:
 with col3:
     st.markdown("#### Health Insurance Predictor - Python, ML")
     st.text("Developed and deployed an end-to-end machine learning regression model to predict health insurance payment amounts using demographic, lifestyle, and clinical data with Python, Scikit-learn, and Streamlit.")
-    st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">Streamlit **|** Python **|** Visualization</span>',
+    st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">Machine Learning **|** Python **|** Streamlit</span>',
                 unsafe_allow_html=True)
     container = st.container(border=False, horizontal=True)
     container.write("[**View Project**](https://github.com/XeNoX36/Health-Care-Insurance-Predictor)")
