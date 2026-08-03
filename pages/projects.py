@@ -18,6 +18,32 @@ st.title("", anchor="line")
 # columns 1
 col1, col2, col3 = st.columns(3, border=True)
 with col1:
+    st.markdown("#### Hospital Operations & Revenue Dashboard - Tableau, SQL")
+    st.text("Developed an interactive Tableau dashboard tracking **hospital revenue, patient volume, physician performance, and treatment duration**, enabling executives to monitor operational KPIs in real time.")
+    st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">SQL **|** Tableau</span>',
+                unsafe_allow_html=True)
+    container = st.container(border=False, horizontal=True)
+    container.write("[**View Project**](https://prod-ch-a.online.tableau.com/t/adelajasamuel99-feaf6d059b/views/HospitalOperationsandRevenueDashboard/PatientSummary)")
+with col2:
+    st.markdown("#### Diabetes Risk Prediction System - Python, ML")
+    st.text("* Developed and deployed an end-to-end machine learning pipeline that predicts diabetes risk from patient clinical data using Python, Scikit-learn, and Streamlit.")
+    st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">Machine Learning **|** Python **|** Streamlit</span>',
+                unsafe_allow_html=True)
+    container = st.container(border=False, horizontal=True)
+    container.write("[**View Project**](https://github.com/XeNoX36/Diabetes-Risk-Checker)")
+    container.write("[**View App**](https://diabetes-risk-checker-d9.streamlit.app/)")
+with col3:
+    st.markdown("#### Health Insurance Predictor - Python, ML")
+    st.text("Developed and deployed an end-to-end machine learning regression model to predict health insurance payment amounts using demographic, lifestyle, and clinical data with Python, Scikit-learn, and Streamlit.")
+    st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">Streamlit **|** Python **|** Visualization</span>',
+                unsafe_allow_html=True)
+    container = st.container(border=False, horizontal=True)
+    container.write("[**View Project**](https://github.com/XeNoX36/Health-Care-Insurance-Predictor)")
+    container.write("[**View App**](https://health-care-insurance-predictor.streamlit.app/)")
+
+# columns 2
+col1, col2, col3 = st.columns(3, border=True)
+with col1:
     st.markdown("#### Cuisine Coffee Sales Analysis Using SQL")
     st.text("Conducted an extensive analysis on Coffee sales across five different cuisines, identifying key trends in customer demography, "
             "purchase history, orders, potential high value customers and provided insights.")
@@ -41,7 +67,7 @@ with col3:
     container.write("[**View Project**](https://github.com/XeNoX36/MTN_Site.github.io/blob/main/README.md)")
     container.write("[**View Dashboard**](https://mtnchurnapp.streamlit.app/)")
 
-# columns 2
+# columns 3
 col1, col2, col3 = st.columns(3, border=True)
 with col1:
     st.markdown("#### Retail Strategy and Analytics on Chips Sales")
@@ -75,7 +101,7 @@ with col3:
                 unsafe_allow_html=True)
     st.write("[**View Project**](https://github.com/XeNoX36/Twitter-Sentiment-Analysis/blob/main/README.md)")
 
-# columns 3
+# columns 4
 col1, col2, col3 = st.columns(3, border=True)
 with col1:
     st.markdown("#### Analysis of Netflix data using Python")
@@ -101,7 +127,7 @@ with col3:
     st.write("[**View Project**](https://github.com/XeNoX36/AirBnB-Analysis-Project/blob/main/README.md)")
 
 
-# columns 4
+# columns 5
 col1, col2, col3 = st.columns(3, border=True)
 with col1:
     st.markdown("#### Patient Profile Analysis Dashboard Using Python")
@@ -130,7 +156,7 @@ with col3:
     st.write("[**View Project**](https://github.com/XeNoX36/Crypto-Automation-and-ETL-Project/blob/main/README.md)")
 
 
-# columns 5
+# columns 6
 col1, col2, col3 = st.columns(3, border=True)
 with col1:
     st.markdown("#### Analysis and Prediction of Electricity Distribution - ML")
@@ -156,16 +182,6 @@ with col3:
                 unsafe_allow_html=True)
     st.write("[**View Project**](https://github.com/XeNoX36/SAT-Scores-of-Students/blob/main/README.md)")
 
-# columns 6
-col1, col2, col3 = st.columns(3, border=True)
-with col1:
-    st.markdown("#### Euro 2024 Soccer Analysis App ")
-    st.text("Deployed a web app that visualizes the shot-map for different teams and players that participated in the Euro 2024 Qualifiers.")
-    st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">Python **|** MPL-Soccer **|** Streamlit</span>',
-                unsafe_allow_html=True)
-    container = st.container(border=False, horizontal=True)
-    container.write("[**View Project**](https://github.com/XeNoX36/SoccerLysis/blob/main/README.md)")
-    container.write("[**View App**](https://soccerlysis-app.streamlit.app/)")
 
 # styles
 # view dashboad-styles
