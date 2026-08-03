@@ -19,33 +19,46 @@ with col3:
 with col4:
     st.image("images/python.png")
 with col5:
-    st.image("images/numpy.png")
+    st.image("images/tableau2.png")
 
 # columns 2
 col1, col2, col3, col4, col5 = st.columns(5, border=True, width=950)
 with col1:
-    st.image("images/st.png")
+    st.image("images/powerbi2.png")
 with col2:
-    st.image("images/pandas.png")
+    st.image("images/seaborn.png")
 with col3:
     st.image("images/matplot.png")
 with col4:
     st.image("images/plotly.png")
 with col5:
-    st.image("images/scikit.png")
+    st.image("images/st.png")
 
 # columns 3
 col1, col2, col3, col4, col5 = st.columns(5, border=True, width=950)
 with col1:
-    st.image("images/seaborn.png")
+    st.image("images/github.png")
 with col2:
-    st.image("images/mpl.png")
+    st.image("images/pandas.png")
 with col3:
-    st.image("images/etl.png")
+    st.image("images/numpy.png")
 with col4:
-    st.image("images/datastory.png")
-with col5:
     st.image("images/tensor.png")
+with col5:
+    st.image("images/scikit.png")
+
+# columns 4
+col1, col2, col3, col4, col5 = st.columns(5, border=True, width=950)
+with col1:
+    st.image("images/datastory.png")
+with col2:
+    st.image("images/data modeling.png")
+with col3:
+    st.image("images/ppoint.png")
+with col4:
+    st.image("images/graphpad.png")
+with col5:
+    st.image("images/etl.png")
 
 st.title("")
 st.header("Soft Skills & Competencies")
