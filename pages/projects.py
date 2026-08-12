@@ -23,6 +23,7 @@ with col1:
     st.markdown('<span style="background-color: #3e6077; padding: 3px 10px 3px 10px; border-radius: 20px;">SQL **|** Tableau</span>',
                 unsafe_allow_html=True)
     container = st.container(border=False, horizontal=True)
+    container.write("[**View Project**](https://github.com/XeNoX36/Hospital-Operations-and-Revenue-Dashboard)")
     container.write("[**View Dashboard**](https://prod-ch-a.online.tableau.com/t/adelajasamuel99-feaf6d059b/views/HospitalOperationsandRevenueDashboard/PatientSummary)")
 with col2:
     st.markdown("#### Diabetes Risk Prediction System - Python, ML")
